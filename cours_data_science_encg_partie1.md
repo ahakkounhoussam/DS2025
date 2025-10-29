@@ -1,6 +1,6 @@
 # COURS DE SCIENCE DES DONNÉES
 ## École Nationale de Commerce et de Gestion (ENCG) - 4ème Année
-<img src="IMG-20250419-WA0006[1].jpg" style="height:464px;margin-right:432px"/>
+<img src="sb3.jpg" style="height:464px;margin-right:432px"/>
 AHAKKOUN Houssam
 ---
 
