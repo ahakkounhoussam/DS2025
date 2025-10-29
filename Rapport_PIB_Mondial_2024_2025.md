@@ -1,5 +1,5 @@
 # Rapport d'analyse du PIB mondial 2024 et prévisions 2025
-
+<img src="sb3.jpg" style="height:464px;margin-right:432px"/>
 ## Analyse par pays
 
 | Pays       | Région           | PIB 2024 (milliards $) | Croissance 2024 (%) | Prévision PIB 2025 (milliards $) |
