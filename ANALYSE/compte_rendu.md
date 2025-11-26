@@ -1,3 +1,7 @@
+# AHAKKOUN Houssam
+<img src="sb3.jpg" style="height:464px;margin-right:432px"/>
+
+
 # Compte Rendu du Notebook *Ahakkoun_Houssam.ipynb*
 
 Le notebook *Ahakkoun_Houssam.ipynb* présente une étude complète d'un
