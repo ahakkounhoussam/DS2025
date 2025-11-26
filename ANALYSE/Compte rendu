@@ -1,1 +1,118 @@
+# AHAKKOUN Houssam
+<img src="sb3.jpg" style="height:464px;margin-right:432px"/>
+# 📄 Compte Rendu du Notebook Ahakkoun_Houssam.ipynb
 
+Le notebook Ahakkoun_Houssam.ipynb présente une étude complète d’un graphe social en utilisant la bibliothèque PyTorch Geometric, combinée à NetworkX pour la visualisation et à des modèles de Graph Neural Networks (GNN) pour l’analyse prédictive.
+
+L’objectif principal du travail est de comprendre la structure d’un réseau social, de visualiser ses propriétés, puis d’appliquer des techniques d’apprentissage profond pour réaliser deux tâches : la classification de nœuds et la prédiction de liens.
+
+1. Chargement des données et préparation
+
+Le document commence par l’importation des bibliothèques nécessaires (PyTorch, torch_geometric, NetworkX, Matplotlib).
+Deux options de chargement sont proposées :
+
+Le Karate Club Graph, un réseau social classique de 34 nœuds.
+
+Le Davis Southern Women Network, un graphe bipartite représentant les interactions sociales de femmes dans divers événements.
+
+Une première analyse est effectuée pour afficher :
+
+le nombre de nœuds et d’arêtes,
+
+les caractéristiques des nœuds (features),
+
+les labels s’ils existent.
+
+2. Visualisation du graphe
+
+Une représentation graphique du réseau est générée afin d’observer :
+
+la disposition des nœuds,
+
+les relations entre individus (arêtes),
+
+les labels ou classes déjà connues.
+
+Cette visualisation permet de mieux comprendre la structure sociale étudiée.
+
+3. Analyse structurelle du réseau
+
+Le notebook calcule différents indicateurs essentiels pour décrire la structure du graphe :
+
+la centralité des nœuds,
+
+le coefficient de clustering,
+
+la densité du réseau,
+
+la distribution des degrés.
+
+Ces mesures permettent d’identifier les nœuds influents, les zones densément connectées et l’organisation générale du réseau.
+
+4. Modélisation par Graph Neural Network (GCN)
+
+Une architecture Graph Convolutional Network (GCN) est construite pour effectuer une classification des nœuds.
+Le modèle comprend :
+
+une première couche GCN suivie d’une activation ReLU,
+
+une seconde couche GCN pour obtenir les prédictions finales.
+
+Les données sont divisées en ensembles d’entraînement, de validation et de test pour évaluer les performances du modèle.
+
+5. Entraînement du modèle
+
+Le modèle GCN est entraîné sur plusieurs époques en utilisant :
+
+la perte CrossEntropyLoss,
+
+l’optimiseur Adam.
+
+Pendant l’entraînement, l’évolution de la précision et de la perte est surveillée, permettant d’observer la progression du modèle vers une meilleure compréhension du graphe.
+
+6. Évaluation des performances
+
+Après entraînement, le modèle est testé sur un ensemble indépendant.
+Les métriques affichées incluent :
+
+la précision (accuracy),
+
+un rapport de classification (precision, recall, F1-score),
+
+une matrice de confusion.
+
+Une double visualisation du graphe est également fournie :
+
+l’une avec les vrais labels,
+
+l’autre avec les labels prédits, permettant une comparaison intuitive.
+
+7. Prédiction de liens (Link Prediction)
+
+En second lieu, le notebook aborde une tâche plus avancée : la prévision des liens manquants.
+Le processus consiste à :
+
+créer des couples de nœuds positifs (vrais liens) et négatifs (non-liens),
+
+encoder les nœuds via un GCN,
+
+utiliser un mécanisme de décodage basé sur le produit scalaire pour prédire l’existence d’un lien.
+
+Cette section démontre une compréhension approfondie des usages avancés des GNN.
+
+Conclusion
+
+Le notebook constitue une exploration complète et bien structurée des graphes sociaux à l’aide de techniques modernes de deep learning.
+Il combine :
+
+analyse exploratoire,
+
+visualisation,
+
+modélisation via GNN,
+
+classification,
+
+prédiction de liens.
+
+Ce travail reflète une bonne maîtrise de la théorie des graphes, de NetworkX et surtout de PyTorch Geometric, une bibliothèque utilisée dans les recherches récentes en intelligence artificielle appliquée aux graphes.
