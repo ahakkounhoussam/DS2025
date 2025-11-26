@@ -1,6 +1,6 @@
 # AHAKKOUN Houssam
 <img src="sb3.jpg" style="height:464px;margin-right:432px"/>
-# 📄 Compte Rendu du Notebook Ahakkoun_Houssam.ipynb
+# Compte Rendu du Notebook Ahakkoun_Houssam.ipynb
 
 Le notebook Ahakkoun_Houssam.ipynb présente une étude complète d’un graphe social en utilisant la bibliothèque PyTorch Geometric, combinée à NetworkX pour la visualisation et à des modèles de Graph Neural Networks (GNN) pour l’analyse prédictive.
 
