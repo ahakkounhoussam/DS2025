@@ -1,9 +1,7 @@
 # AHAKKOUN Houssam 24010434
 <img src="me.jpg" style="height:464px;margin-right:432px"/>
 
-
-
-
+# Marketing & Commerce :
 # Compte Rendu Détaillé de la Base de Données – Marketing Data
 
 ## 1. Introduction
