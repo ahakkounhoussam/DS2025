@@ -1,3 +1,9 @@
+# AHAKKOUN Houssam
+<img src="me.jpg" style="height:464px;margin-right:432px"/>
+
+
+
+
 # Compte Rendu Détaillé de la Base de Données – Marketing Data
 
 ## 1. Introduction
